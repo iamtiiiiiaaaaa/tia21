@@ -1,0 +1,25 @@
+@font-face {
+    font-family: regularBrush;
+    src: url(./assets/Regular\ Brush.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: regularBrush;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, .9);
+    color: antiquewhite;
+    overflow-x: hidden;
+}
+
+.first-page {
+    height: 100vh;
+}
+
+#kado-img {
+    cursor: pointer;
+}
