@@ -23,3 +23,19 @@ body {
 #kado-img {
     cursor: pointer;
 }
+
+.second-page {
+    background-image: url("./assets/cilukba.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    height: 100vh;
+}
+
+.sub-second-page {
+    background-color: rgba(0, 0, 0, .4);
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+}
