@@ -41,6 +41,7 @@ btnNext3.addEventListener("click", () => {
     document.getElementById("statement4").classList.remove("d-none");
     document.getElementById("lovePanda").classList.remove("d-none");
     document.getElementById("two-support").classList.remove("d-none");
+    document.getElementById("myAudio").play();
 })
 
 const btnNext4 = document.getElementById("next-4");
